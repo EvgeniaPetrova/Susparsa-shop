@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <title>White unisex t-shirt - Susparsa shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a class="skip-link" href="#main">Skip to content</a>
+        <button class="header__burger-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="navigation header__navigation" aria-label="Main">
+          <a class="navigation__link" href="#">Women</a>
+          <a class="navigation__link" href="#">Men</a>
+          <a class="navigation__link" href="#">Kids</a>
+          <a class="navigation__link" href="#">Company</a>
+        </nav>
+        <a href="#" class="header__logo logo">
+          <span class="visually-hidden">Homepage</span>
+          <img class="logo__image" src="assets/img/logo_susparsa.png" alt="" />
+        </a>
+        <nav
+          class="header__navigation navigation header__navigation--desktop"
+          aria-label="Meta & search"
+        >
+          <a class="navigation__link" href="#">Account</a>
+          <a class="navigation__link" href="#">Search</a>
+          <a class="navigation__link" href="#"
+            >Cart (<span id="counter" class="navigation__counter">0</span>)</a
+          >
+        </nav>
+        <nav
+          class="header__navigation navigation header__navigation--mobile"
+          aria-label="Meta & search"
+        >
+          <a class="navigation__link navigation__link--account" href="#">
+            <img src="assets/img/account.png" alt="" width="25" />
+          </a>
+          <a class="navigation__link" href="#">
+            <img src="assets/img/search.png" alt="" width="25" />
+          </a>
+          <a class="navigation__link" href="#">
+            <img src="assets/img/shopping-bag.png" alt="" width="25"
+          /></a>
+        </nav>
+      </div>
+    </header>
+    <div class="container breadcrumbs-container">
+      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+        <ol class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Home</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Women</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <span
+              aria-current="page"
+              class="breadcrumbs__link breadcrumbs__link--current"
+              aria-current="page"
+              >White unisex t-shirt</span
+            >
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <main id="main" tabindex="-1">
+      <div class="product">
+        <a class="skip-link" href="#product-form">Skip to product form</a>
+        <div class="product__media">
+          <img
+            class="product__image"
+            src="assets/img/main pic.jpg"
+            alt="White unisex t-shirt."
+            width="473"
+            height="707"
+          />
+        </div>
+        <div class="product__info">
+          <h1 class="product__title title">White unisex t-shirt</h1>
+          <p class="product__price">CHF 40</p>
+          <p class="product__tax"><small>Tax included</small></p>
+          <form
+            method="post"
+            action="/"
+            id="product-form"
+            class="product__form product-form"
+          >
+            <fieldset class="product-form__fieldset fieldset">
+              <legend class="fieldset__legend">Size</legend>
+              <div class="fieldset__radio-group">
+                <div class="radio">
+                  <input
+                    type="radio"
+                    class="radio__input visually-hidden"
+                    id="size_xs"
+                    name="size"
+                    value="XS"
+                  />
+                  <label for="size_xs" class="radio__label radio__label--size"
+                    >XS</label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    class="radio__input visually-hidden"
+                    id="size_s"
+                    name="size"
+                    value="S"
+                    checked
+                  />
+                  <label for="size_s" class="radio__label radio__label--size"
+                    >S</label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    class="radio__input visually-hidden"
+                    id="size_m"
+                    name="size"
+                    value="M"
+                  />
+                  <label for="size_m" class="radio__label radio__label--size"
+                    >M</label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    class="radio__input visually-hidden"
+                    id="size_l"
+                    name="size"
+                    value="L"
+                  />
+                  <label for="size_l" class="radio__label radio__label--size"
+                    >L</label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    class="radio__input visually-hidden"
+                    id="size_xl"
+                    name="size"
+                    value="XL"
+                  />
+                  <label for="size_xl" class="radio__label radio__label--size"
+                    >XL</label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    class="radio__input visually-hidden"
+                    id="size_2xl"
+                    name="size"
+                    value="2XL"
+                    disabled
+                  />
+                  <label
+                    for="size_2xl"
+                    class="radio__label radio__label--size radio__label--disabled"
+                    >2XL</label
+                  >
+                </div>
+              </div>
+            </fieldset>
+            <fieldset class="product-form__fieldset fieldset">
+              <legend class="fieldset__legend">Color</legend>
+              <div class="fieldset__radio-group">
+                <div class="radio">
+                  <input
+                    class="radio__input visually-hidden"
+                    type="radio"
+                    id="color_white"
+                    name="color"
+                    value="white"
+                    checked
+                  />
+                  <label
+                    for="color_white"
+                    class="radio__label radio__label--color radio__label--color-1"
+                    data-tooltip="White"
+                    ><span class="visually-hidden">White</span></label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    class="radio__input visually-hidden"
+                    type="radio"
+                    id="color_black"
+                    name="color"
+                    value="black"
+                  />
+                  <label
+                    for="color_black"
+                    class="radio__label radio__label--color radio__label--color-2"
+                    data-tooltip="Black"
+                    ><span class="visually-hidden">Black</span></label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    class="radio__input visually-hidden"
+                    type="radio"
+                    id="color_grey"
+                    name="color"
+                    value="grey"
+                  />
+                  <label
+                    for="color_grey"
+                    class="radio__label radio__label--color radio__label--color-3"
+                    data-tooltip="Grey"
+                    ><span class="visually-hidden">Grey</span></label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    class="radio__input visually-hidden"
+                    type="radio"
+                    id="color_purple"
+                    name="color"
+                    value="purple"
+                  />
+                  <label
+                    for="color_purple"
+                    class="radio__label radio__label--color radio__label--color-4"
+                    data-tooltip="Purple"
+                    ><span class="visually-hidden">Purple</span></label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    class="radio__input visually-hidden"
+                    type="radio"
+                    id="color_mauvelous"
+                    name="color"
+                    value="mauvelous"
+                    disabled
+                  />
+                  <label
+                    for="color_mauvelous"
+                    class="radio__label radio__label--color radio__label--color-5 radio__label--disabled"
+                    data-tooltip="Mauvelous"
+                    ><span class="visually-hidden">Mauvelous</span></label
+                  >
+                </div>
+                <div class="radio">
+                  <input
+                    class="radio__input visually-hidden"
+                    type="radio"
+                    id="color_apricot"
+                    name="color"
+                    value="apricot"
+                    disabled
+                  />
+                  <label
+                    for="color_apricot"
+                    class="radio__label radio__label--color radio__label--color-6 radio__label--disabled"
+                    data-tooltip="Apricot"
+                    ><span class="visually-hidden">Apricot</span></label
+                  >
+                </div>
+              </div>
+            </fieldset>
+            <div class="fieldset">
+              <label for="quantity" class="fieldset__label">Quantity</label>
+              <div class="quantity">
+                <button
+                  type="button"
+                  class="quantity__button quantity__button--decrease"
+                  data-action="decrease"
+                  disabled
+                >
+                  <span class="visually-hidden">Decrease quantity</span>
+                </button>
+                <input
+                  id="quantity"
+                  class="quantity__input"
+                  type="number"
+                  min="1"
+                  max="99"
+                  value="1"
+                  step="1"
+                  data-counter
+                />
+                <button
+                  type="button"
+                  class="quantity__button quantity__button--increase"
+                  data-action="increase"
+                >
+                  <span class="visually-hidden">Increase quantity</span>
+                </button>
+              </div>
+            </div>
+            <button
+              class="product-form__button button button--primary"
+              type="submit"
+              name="form-btn"
+              value="add-to-cart"
+            >
+              Add to cart
+            </button>
+            <a class="product-form__link button button--secondary" href="#">
+              Buy it now
+            </a>
+          </form>
+          <div class="product__description">
+            <p>
+              A unisex basic garment with a loose fit. Light and comfortable to
+              your skin.
+            </p>
+            <p>
+              Certification of cotton -
+              <abbr title="Global Organic Textile Standart">GOTS.</abbr>
+            </p>
+          </div>
+        </div>
+        <div class="product__accordions">
+          <div class="product__accordion accordion">
+            <h2 class="accordion__title">
+              <button
+                type="button"
+                class="accordion__button"
+                aria-expanded="false"
+                aria-controls="accordion__section1"
+                id="accordion__button1"
+              >
+                Sizing & Fit
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="accordion__section1"
+              class="accordion__section"
+              aria-labelledby="accordion__button1"
+            >
+              <div class="accordion__content">
+                <p>Olga is 175cm, she is wearing a size S.</p>
+                <p>Please choose a bigger size if you prefer oversize.</p>
+              </div>
+            </div>
+          </div>
+          <div class="product__accordion accordion">
+            <h2 class="accordion__title">
+              <button
+                type="button"
+                class="accordion__button"
+                aria-expanded="false"
+                aria-controls="accordion__section2"
+                id="accordion__button2"
+              >
+                Composition & Care
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="accordion__section2"
+              class="accordion__section"
+              aria-labelledby="accordion__button2"
+            >
+              <div class="accordion__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat, maiores culpa! Nihil dolores fuga quod. Aspernatur
+                  eum repellat quas quam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product__accordion accordion">
+            <h2 class="accordion__title">
+              <button
+                type="button"
+                class="accordion__button"
+                aria-expanded="false"
+                aria-controls="accordion__section3"
+                id="accordion__button3"
+              >
+                Delivery & Returns
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="accordion__section3"
+              class="accordion__section"
+              aria-labelledby="accordion__button3"
+            >
+              <div class="accordion__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias magni accusantium, reiciendis fugit porro commodi
+                  expedita id ut, alias debitis quibusdam tempora laboriosam
+                  officia, voluptatibus praesentium ratione quisquam doloribus.
+                  Ratione!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="recommendations" aria-labelledby="recommendations">
+        <div class="recommendations__container">
+          <h2 class="recommendations__title title" id="recommendations">
+            You may also like
+          </h2>
+          <ul class="recommendations__list" role="list">
+            <li class="recommendations__item">
+              <article class="recommendations__card product-card">
+                <img
+                  src="assets/img/pic1.jpg"
+                  alt="Girl in purple hoody."
+                  width="248"
+                  height="368"
+                  class="product-card__image"
+                />
+                <div class="product-card__info">
+                  <h3 class="product-card__title">
+                    <a class="product-card__link" href="#">Product name</a>
+                  </h3>
+                  <ul class="colors product-card__colors" role="list">
+                    <li class="colors__item colors__item--1"></li>
+                    <li class="colors__item colors__item--2"></li>
+                    <li class="colors__item colors__item--3"></li>
+                    <li class="colors__item colors__item--4"></li>
+                  </ul>
+                  <p class="product-card__price price">CHF 40</p>
+                </div>
+              </article>
+            </li>
+            <li class="recommendations__item">
+              <article class="recommendations__card product-card">
+                <img
+                  src="assets/img/pic2.jpg"
+                  alt="Men in blue t-shirt."
+                  width="248"
+                  height="368"
+                  class="product-card__image"
+                />
+                <div class="product-card__info">
+                  <h3 class="product-card__title">
+                    <a class="product-card__link" href="#">Product name</a>
+                  </h3>
+                  <div class="product-card__tags tags">
+                    <span class="tags__item">Sold out</span>
+                  </div>
+                  <ul class="colors product-card__colors" role="list">
+                    <li class="colors__item colors__item--1"></li>
+                    <li class="colors__item colors__item--2"></li>
+                    <li class="colors__item colors__item--3"></li>
+                    <li class="colors__item colors__item--4"></li>
+                  </ul>
+                  <p class="product-card__price price">CHF 40</p>
+                </div>
+              </article>
+            </li>
+            <li class="recommendations__item">
+              <article class="recommendations__card product-card">
+                <img
+                  src="assets/img/pic3.jpg"
+                  alt="Girl in green t-shirt."
+                  width="248"
+                  height="368"
+                  class="product-card__image"
+                />
+                <div class="product-card__info">
+                  <h3 class="product-card__title">
+                    <a class="product-card__link" href="#">Product name</a>
+                  </h3>
+                  <ul class="colors product-card__colors" role="list">
+                    <li class="colors__item colors__item--1"></li>
+                    <li class="colors__item colors__item--2"></li>
+                    <li class="colors__item colors__item--3"></li>
+                    <li class="colors__item colors__item--4"></li>
+                  </ul>
+                  <p class="product-card__price price">CHF 40</p>
+                </div>
+              </article>
+            </li>
+            <li class="recommendations__item">
+              <article class="recommendations__card product-card">
+                <img
+                  src="assets/img/pic4.jpg"
+                  alt="Girl in black hoody."
+                  width="248"
+                  height="368"
+                  class="product-card__image"
+                />
+                <div class="product-card__info">
+                  <h3 class="product-card__title">
+                    <a class="product-card__link" href="#">Product name</a>
+                  </h3>
+                  <ul class="colors product-card__colors" role="list">
+                    <li class="colors__item colors__item--1"></li>
+                    <li class="colors__item colors__item--2"></li>
+                    <li class="colors__item colors__item--3"></li>
+                    <li class="colors__item colors__item--4"></li>
+                  </ul>
+                  <p class="product-card__price price">CHF 40</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__top">
+          <div class="footer__section">
+            <h2 class="footer__title">About</h2>
+            <address class="footer__address">
+              <p>Susparsa Store</p>
+              <p>Geneva, Switzerland</p>
+              <ul class="socials footer__socials" role="list">
+                <li class="socials__item">
+                  <a href="https://www.facebook.com/" aria-label="Facebook"
+                    ><img
+                      src="assets/img/facebook.svg"
+                      alt="Our Facebook"
+                      width="24"
+                      height="24"
+                  /></a>
+                </li>
+                <li class="socials__item">
+                  <a href="https://www.instagram.com/" aria-label="Instagram"
+                    ><img
+                      src="assets/img/instagram.svg"
+                      alt="Our Instagram"
+                      width="24"
+                      height="24"
+                  /></a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer__section">
+            <h2 class="footer__title">Company</h2>
+            <ul class="footer__navigation footer-navigation" role="list">
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Women</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Men</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Kids</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">About Us</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Our Materials</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <h2 class="footer__title">Useful links</h2>
+            <ul class="footer__navigation footer-navigation" role="list">
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Privacy Policy</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Shipping Policy</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#"
+                  >Return & Refund Policy</a
+                >
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">
+                  Terms of Service</a
+                >
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright"><small>© Susparsa 2021</small></p>
+      </div>
+    </footer>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/accordion.js"></script>
+    <script src="scripts/quantity.js"></script>
+  </body>
+</html>

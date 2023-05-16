@@ -1,0 +1,25 @@
+:root {
+    --palette-white: #FFFFFF;
+    --palette-mirage: #1A1F29;
+    --palette-silver: #CCCCCC;
+    --palette-silver-2: #BDBDBD;
+    --palette-deep-koamaru: #171C8F;
+    --palette-shuttle-grey: #5E626B;
+    --palette-manatee: #929499;
+    --palette-concrete: #F2F2F2;
+    --palette-bombay: #AEAEB0;
+    --palette-biloba-flower: #BA9BE6;
+    --palette-sea-pink: #E9A0A7;
+    --palette-apricot-peach: #F8CAB1;
+    --palette-antique-brass: #C88252;
+
+
+    --primary-text-color: var(--palette-mirage);
+    --secondary-text-color: var(--palette-shuttle-grey);
+    --breadcrumbs-color: var(--palette-manatee);
+    --background-color: var(--palette-white);
+    --border-color: var(--palette-silver);
+    --accent-color: var(--palette-deep-koamaru);
+    --disabled-color: var(--palette-concrete);
+    --disabled-text-color: var(--palette-silver-2);
+}
