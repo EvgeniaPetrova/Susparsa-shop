@@ -59,6 +59,7 @@ body {
   height: 1.25rem;
   border: 0;
   cursor: pointer;
+  background-color: white;
 }
 .header__burger-button span{
   width:  1.875rem;
@@ -308,6 +309,7 @@ body {
   padding: 0.9375rem 2rem;
   text-transform: uppercase;
   cursor: pointer;
+  color: var(--primary-text-color);
 }
 .product-form__button {
   margin: 2.7rem 0 0.7rem;
